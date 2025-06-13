@@ -58,7 +58,7 @@ export default defineConfig((ctx) => {
     // Quasar framework configuration
     framework: {
       config: {},
-      plugins: ['Notify'] // Quasar plugin for notifications
+      plugins: ['Notify', 'Dialog'] // Quasar plugins for notifications and dialogs
     },
 
     // Animations used globally (empty = none)
